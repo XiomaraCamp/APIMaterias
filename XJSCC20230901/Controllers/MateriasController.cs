@@ -8,7 +8,7 @@ namespace XJSCC20230901.Controllers
     [ApiController]
     public class MateriasController : ControllerBase
     {
-        static List <Materias> materias = new List<Materias>();
+        static List<Materias> materias = new List<Materias>();
 
         [HttpGet]
         public IEnumerable<Materias> Get()
@@ -20,8 +20,23 @@ namespace XJSCC20230901.Controllers
         public IActionResult Put([FromBody] Materias materia)
         {
             materias.Add(materia);
-            return  Ok();
+            return Ok();
         }
 
+        [HttpDelete("{id}")]
+        public IActionResult Delete(int id)
+        {
+            var existingMaterias = materias.FirstOrDefault(c => c.Id == id);
+            if (existingMaterias != null)
+            {
+                materias.Remove(existingMaterias);
+                return Ok();
+            }
+            else
+            {
+                return NotFound();
+            }
+
+        }
     }
 }
