@@ -474,9 +474,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jc997\\Desktop\\Guia2\\XJSCC20230901\\XJSCC20230901\\XJSCC20230901.csproj",
-      "projectName": "XJSCC20230901",
-      "projectPath": "C:\\Users\\jc997\\Desktop\\Guia2\\XJSCC20230901\\XJSCC20230901\\XJSCC20230901.csproj",
+      "projectUniqueName": "C:\\Users\\jc997\\Desktop\\Guia2\\XJSCC20230901\\XJSCC20230901\\XJSCC202309011.csproj",
+      "projectName": "XJSCC202309011",
+      "projectPath": "C:\\Users\\jc997\\Desktop\\Guia2\\XJSCC20230901\\XJSCC20230901\\XJSCC202309011.csproj",
       "packagesPath": "C:\\Users\\jc997\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\jc997\\Desktop\\Guia2\\XJSCC20230901\\XJSCC20230901\\obj\\",
       "projectStyle": "PackageReference",
